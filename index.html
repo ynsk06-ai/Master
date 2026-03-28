@@ -516,7 +516,7 @@ async function quickScan() {
 
 // ==================== FETCH ====================
 async function fetchOHLCV(sym, tf) {
-  const proxy = 'https://master-ai-proxy.onrender.com';
+  const proxy = 'https://master1-b4ee.onrender.com';
   const res = await fetch(`${proxy}/yahoo?symbol=${sym}&interval=${tf}&range=5d`);
   if (!res.ok) throw new Error('Veri çekilemedi');
   const data = await res.json();
