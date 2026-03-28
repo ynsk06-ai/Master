@@ -8,7 +8,7 @@ webpush.setVapidDetails(
   process.env.VAPID_PRIVATE_KEY
 );
 
-const PROXY_URL = 'https://master-ai-proxy.onrender.com'; // kendi proxy URL'ni yaz
+const PROXY_URL = 'https://master1-b4ee.onrender.com'; // kendi proxy URL'ni yaz
 
 cron.schedule('*/30 * * * * *', async () => {
   console.log('🔄 [CRON] Master AI tam tarama başladı - v3.0');
